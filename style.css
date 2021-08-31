@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+@font-face {
+  font-family: Alliance-Bold;
+  src: url(Alliance\ No.1\ Bold.otf);
+}
+
+@font-face {
+  font-family: Alliance-Light;
+  src: url(Alliance\ No.1\ Light.otf);
+}
+
+.header{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111229;
+  flex-direction: column;
+
+}
+
+h1{
+  color: wheat;
+  font-family: Alliance-Bold;
+
+}
+
+p{
+  color: rgba(255, 255, 255, 0.6);
+  width: 500px;
+  text-align: justify;
+  font-family: Alliance-Light;
+
+}
